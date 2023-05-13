@@ -1,0 +1,7 @@
+<label for="">CEP</label>
+<input type="text" #input name=""  id="">
+<p>{{endereco}}</p>
+<p>{{bairro}}</p>
+<p>{{estado}}</p>
+<p>{{cidade}}</p>
+<button type="submit" (click)="search(input.value); $event.preventDefault()">Continuar</button>
